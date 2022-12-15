@@ -1,0 +1,51 @@
+---
+title: "ESOC 214 Introduction to Data Science"
+knit: (function(input_file, encoding) {
+    out_dir <- 'docs';
+    rmarkdown::render(input_file,
+      encoding=encoding,
+      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+author: "Tingting Thompson"
+date: "Spring 2023"
+---
+
+**Professor**: Tingting Thompson, M.S. Candidate  
+
+**Email**: [ttthompson@arizona.edu](mailto:ttthompson@arizona.edu?subject=ESOC 214)  
+
+**Office Hours**: Use the Calendly link to schedule a time. Please be aware that I work in the East coast.
+
+
+## Course Description
+This course provides an introduction to the various skills and considerations required for data management and analysis in business, education, and science. Particular attention will be given to learning how to use the free and open-source computing environment R, focusing on the `tidyverse` package for data science. This course is designed to be interactive and hands-on.
+
+## Course Objectives
+This course aims at providing students with an understanding of the various steps in the data science workflow. Students will engage in data wrangling and exploration to provide answers to questions about the data, using the R programming language. During the semester students will work on an individual data science project to demonstrate their understanding of the course content. By the end of this course, you will have real and applicable skills in data science and analytics.
+
+## Learning Outcomes
+At the end of this course, students will be able to:  
+
+1. Apply the different steps of data science as a process to derive knowledge from data  
+1.1. form the question to be answered  
+1.2. acquire the data to answer question  
+1.3. transform and tidy data so that data analysis is possible  
+1.4. explore data with understanding as the goal, which includes data visualization  
+1.5. communicate data analysis results  
+2. Demonstrate proficiency of the steps 1.3 - 1.5 above in the R programming language and R Markdown
+3. Identify and apply professional standards regarding all aspects of data ethics and privacy, including how data are stored, used, managed, analyzed, and presented
+4. Demonstrate knowledge of what a data scientist is and what a career in data science requires in terms of education, and set goals and make plans in case they want to pursue data science beyond the completion of this course
+
+Please refer to the department’s undergraduate student competencies to find out how this course’s learning outcomes fit into your broad education goals.
+
+## A Few Words on R and Coding
+
+This course will be based around the programming language R which we will use within the integrated development environment (IDE) R Studio. For many of you this will be the first time programming, **AND THAT’S OK! This course is intended for beginners, and we will actively focus on building up your R skills over the course of the semester**. Of course, there will still be challenges along the way, but you will rapidly figure out how to solve your own problems as well as to apply your current knowledge to new and exciting questions. 
+I also want to note that I highly encourage you to help each other, as data scientists are rarely working in isolation. **This does not mean you can directly share code associated with an assignment (this is a violation of UA’s Code of Academic Integrity)**. What it does mean is that it is helpful to talk to each other about problems you encountered, resources you found, or provide helpful tips.  
+Learning to code nowadays is much easier, since a simple Google search will research in a huge amount of code that can solve any number of problems. You may use online resources (e.g., StackOverflow), but we will go over the syntax needed to solve all assignments in class. If you do use any external resources, you must explicitly cite where the code was obtained in your comments (add a direct link to the resource). I’ll be checking for recycled code, and any code you re-used without a proper citation will be treated as plagiarism.
+
+## A Few Words on Technology
+1. We will be actively coding in R every week, so it is imperative you have R studio and R installed on your machine. If you do not have a laptop or yours has troubles at some point during the semester, the library offers fast and free rentals of both Macs and PCs: [https://new.library.arizona.edu/tech/borrow](https://new.library.arizona.edu/tech/borrow). You can also take advantage of the multiple computer labs on campus: [https://it.arizona.edu/service/oscr-computer-labs](https://it.arizona.edu/service/oscr-computer-labs)
+2. You will have access to and will be required to retrieve all course materials from the course page on GitHub.
+3. You will need to have R and R Studio installed and functioning by the second day of class. We will go over what these programs are and how to install them in the first week of class.
+4. If you are having a coding issue, first try and solve it on your own. If you’re still struggling, then post it to our D2L discussion board. Essentially, if you are about to email me with a homework/class/coding question, post it to D2L first. I’m not doing this to save me time, but rather because virtually all programmers/coders solve problems by helping each other, and thus I want you to do the same! 
+
